@@ -1,2 +1,27 @@
+.body{
+    background: #000;
+}
 
 
+.chrono-input {
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 650%;
+    color: #1b6d85;
+    background: #000;
+    
+    
+}
+
+.chrono-div{
+    display: block;
+    margin-top: 15%;
+    margin-left: 5%;
+   align-content: center;
+}
+
+.chrno-btn-group {
+    margin-left: 49%;
+    
+}

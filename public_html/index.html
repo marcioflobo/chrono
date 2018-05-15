@@ -10,18 +10,21 @@
 
     </head>
     <body>
+        <div class="chrono-div container-fluid">
 
-
-        <span>Cronometro</span>
-        <div>
             <form name="formRelogio">
-                <input  type="text" name="cronometro" value="00:00:00" /><br/>
-                <button  type="button"  onclick="clearInterval(parar)">Parar </button>
-                <button  type="button"  onclick="tempo()">Iniciar </button>
-                <br/>
+                <input  type="text" class="form-control  chrono-input " name="cronometro" value="00:00:00" />
             </form>
         </div>    
-
+        
+        <div class=" btn-group chrno-btn-group "></br>
+            <button  type="button" class="btn btn-sm btn-danger" onclick="clearInterval(parar)">
+                <span class="glyphicon glyphicon-stop" ></span>
+            </button>
+            <button  type="button" class="btn btn-sm btn-info" onclick="tempo()">
+                <span class="glyphicon glyphicon-play" ></span>
+            </button>
+        </div>
 
         <script src="static/js/crhono.js "></script>
     </body> 
